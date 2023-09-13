@@ -63,6 +63,6 @@ Project link: https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-t
 
 
 ## Co-authors
-[Professor Eric Hillebrand](https://sites.google.com/site/erichillebrand)
+[Eric Hillebrand](https://sites.google.com/site/erichillebrand)
 
-[Assistant Professor Mikkel Bennedsen](https://pure.au.dk/portal/en/persons/mikkel-bennedsen(9dc89b5b-f447-4ae2-b6ef-e1b9838c280d).html)
+[Mikkel Bennedsen](https://sites.google.com/site/mbennedsen/home)
