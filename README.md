@@ -55,9 +55,11 @@ seaborn (tested with version 0.9.0)
 
 Mail: smjensen@econ.au.dk
 
+Website: https://sites.google.com/view/sebastianjensen
+
 GitHub profile: https://github.com/Sebastian-Jensen
 
-Project link: https://github.com/Sebastian-Jensen/Neural-Networks-for-Panel-Data
+Project link: https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve
 
 
 ## Co-authors
