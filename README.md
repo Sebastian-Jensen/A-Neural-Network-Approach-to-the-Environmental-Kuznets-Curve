@@ -51,7 +51,7 @@ seaborn (tested with version 0.9.0)
 
 
 ## Contact
-[Sebastian Jensen](https://pure.au.dk/portal/en/persons/sebastian-mathias-jensen(653df4b1-fa3c-4d76-934c-a524fd8b9c01).html) 
+Sebastian Jensen
 
 Mail: smjensen@econ.au.dk
 
