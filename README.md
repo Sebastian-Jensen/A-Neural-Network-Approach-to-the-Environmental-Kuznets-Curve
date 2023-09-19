@@ -32,8 +32,9 @@ The ***Functions*** folder contains custom functions used for data preparation a
 
 ### Example
 
-dsfsd
+*x_train* and *y_train* must be specified as dictionaries where the key-value pairs are region names and pandas DataFrames of observations, respectively.
 
+Missing values are accounted for, but *x_train* and *y_train* must be aligned to have the same missing values. 
 
 ## License
 Not yet licensed.
