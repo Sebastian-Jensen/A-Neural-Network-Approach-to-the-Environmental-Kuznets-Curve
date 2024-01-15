@@ -69,7 +69,7 @@ y_pred = model.predict(x_test, region)
 
 89we893895
 <p float="left">
-  <img src="/Figures examples/f_LAM_with_ben.png" width="100" />
+  <img src="/Figures examples/f_LAM_with_ben.png" width="20%" />
 </p>
 
 
