@@ -6,13 +6,13 @@ The code is built with python 3.x (tested with version 3.6.10) and TensorFlow 2.
 ## Usage
 Save this repository locally (e.g. using Github Desktop) and ensure all required dependencies have been installed. 
 
+The folder ***Empirical Analysis*** contains scripts for model estimation and reproduction of empirical results (figures and tables).
+
 The folder ***Functions*** contains functions for data preparation and implementation of the neural network-based panel data methodology. 
 
 The folder ***Data*** contains the data used in the paper.
 
 The folders ***Benchmark models***, ***BIC***, ***Model Parameters***, ***Model parameters sd***, and ***Squared residuals*** contains the parameter estimates used in the paper and are overwritten by the scripts in the folder ***Empirical Analysis***.
-
-The folder ***Empirical Analysis*** contains scripts for model estimation and reproduction of empirical results (figures and tables).
 
 
 ## Example
