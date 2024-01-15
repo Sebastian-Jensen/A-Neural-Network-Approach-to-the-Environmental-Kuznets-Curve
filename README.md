@@ -5,8 +5,7 @@ The code is built with python 3.x (tested with version 3.6.10) and TensorFlow 2.
 
 
 ## References
-* Bennedsen, M., Hillebrand, E., & Jensen, S. (2023). A neural network approach to the environmental Kuznets curve. Energy Economics, 126, Article 106985. [https://doi.org/10.1016/j.eneco.2023.106985](https://doi.org/10.1016/j.eneco.2023.106985)
-* [A Neural Network Approach to the Environmental Kuznets Curve by Mikkel Bennedsen, Eric Hillebrand and Sebastian Jensen (2023)](https://authors.elsevier.com/sd/article/S0140-9883(23)00483-8).
+* Bennedsen, M., Hillebrand, E., & Jensen, S. (2023). A neural network approach to the environmental Kuznets curve. Energy Economics, 126, Article 106985. [https://doi.org/10.1016/j.eneco.2023.106985](https://doi.org/10.1016/j.eneco.2023.106985).
 
 
 ## Project status
