@@ -47,7 +47,7 @@ model.fit(lr=0.001, min_delta=1e-6, patience=100, verbose=False)
 # NB: x_train, y_train, and pop_train must be aligned to have the same missing values. pop_train is used for transforming the data (log per capita transformation). 
 ```
 
-### Predictions
+### Making predictions
 ```python
 y_pred = model.predict(x_test, region, time_test)
 
@@ -56,7 +56,7 @@ y_pred = model.predict(x_test, region, time_test)
 # time_test:  (-1,1) array of input data.
 ```
 
-### Visualizing output from dynamic model
+### Visualizing output from the dynamic model
 <p float="left">
   <img src="/Figures examples/f_OECD_with_ben.png" width="19%" />
   <img src="/Figures examples/f_REF_with_ben.png" width="19%" />
