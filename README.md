@@ -61,6 +61,11 @@ model.in_sample_predictions()
 BIC = model.BIC
 ```
 
+Predictions
+```python
+y_pred = model.predict(x_test, region)
+```
+
 ## License
 Not yet licensed.
 
