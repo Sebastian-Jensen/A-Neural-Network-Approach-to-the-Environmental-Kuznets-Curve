@@ -9,15 +9,15 @@ We propose a novel panel data methodology that combines fixed effects with a neu
 
 
 ## Usage
-Save this repository locally (e.g. using Github Desktop) and ensure all required dependencies have been installed. 
+* Save this repository locally (e.g. using Github Desktop) and ensure all required dependencies have been installed. 
 
-The folder ***Empirical Analysis*** contains scripts for model estimation and reproduction of all empirical results (figures and tables).
+* The folder ***Empirical Analysis*** contains scripts for model estimation and reproduction of all empirical results (figures and tables).
 
-The folder ***Functions*** contains custom functions for data preparation and implementation of the neural network-based panel data methodology. 
+* The folder ***Functions*** contains custom functions for data preparation and implementation of the neural network-based panel data methodology. 
 
-The folder ***Data*** contains the data used in the paper.
+* The folder ***Data*** contains the data used in the paper.
 
-The folders ***Benchmark models***, ***BIC***, ***Model Parameters***, ***Model parameters sd***, and ***Squared residuals*** contain the parameter estimates used in the paper, but are overwritten by the scripts in the folder ***Empirical Analysis***.
+* The folders ***Benchmark models***, ***BIC***, ***Model Parameters***, ***Model parameters sd***, and ***Squared residuals*** contain the parameter estimates used in the paper, but are overwritten by the scripts in the folder ***Empirical Analysis***.
 
 
 ## Example
