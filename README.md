@@ -5,7 +5,6 @@ Python code and data used to reproduce the empirical results of the paper *A neu
 
 * The ***dynamic model*** uses a time variable as an additional input into the neural network component in place of time fixed effects.
 
-The code is built with python 3.x (tested with version 3.6.10) and TensorFlow 2.x (tested with version 2.2.0).
 
 ## Usage
 Save this repository locally (e.g. using Github Desktop) and ensure all required dependencies have been installed. 
@@ -70,6 +69,10 @@ y_pred = model.predict(x_test, region, time_test)
 
 
 ## Dependencies
+python 3.x (tested with version 3.6.10) 
+
+TensorFlow 2.x (tested with version 2.2.0).
+
 numpy (tested with version 1.19.4)
 
 scipy (tested with version 1.4.1)
