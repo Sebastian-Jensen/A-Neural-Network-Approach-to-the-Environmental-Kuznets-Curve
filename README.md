@@ -39,12 +39,12 @@ Missing values are accounted for, but *x_train* and *y_train* must be aligned to
 
 Importing libraries
 ```python
-from Dynamic_NN_model import dynamic_model as Model  # from Static_NN_model import static_model as Model
+from Dynamic_NN_model import dynamic_model as Model
+#from Static_NN_model import static_model as Model 
 ```
 
 Setting choice parameters
 ```python
-specification = 'dynamic'  # Must be 'static' or 'dynamic'
 formulation = 'regional'   # Must be 'global', 'regional', or 'national'
 nodes = (8, 8, 8)          # Must be (x,), (x,y), or (x,y,z)
 ```
