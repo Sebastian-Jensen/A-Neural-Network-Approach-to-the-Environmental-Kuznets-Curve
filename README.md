@@ -38,18 +38,32 @@ Missing values are accounted for, but *x_train* and *y_train* must be aligned to
 
 
 Importing libraries
-
 ```python
 from Dynamic_NN_model import dynamic_model as Model
-
 ```
 
-Importing libraries
+Setting choice parameters
 ```python
-from Dynamic_NN_model import dynamic_model as Model
-
+specification = 'dynamic'  # Must be 'static' or 'dynamic'
+formulation = 'regional'   # Must be 'global', 'regional', or 'national'
+nodes = (8, 8, 8)          # Must be (x,), (x,y), or (x,y,z)
 ```
 
+Estimating model
+```python
+model = Model(nodes=nodes, x_train=gdp_est, y_train=ghg_est, pop_train=pop_est, formulation=formulation)
+model.fit(lr=0.001, min_delta=1e-6, patience=100, verbose=False)
+
+model.in_sample_predictions()
+BIC = model.BIC
+```
+
+In-sample predictions
+Setting choice parameters
+```python
+model.in_sample_predictions()
+BIC = model.BIC
+```
 
 ## License
 Not yet licensed.
