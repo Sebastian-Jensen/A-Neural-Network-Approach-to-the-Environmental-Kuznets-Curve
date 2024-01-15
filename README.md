@@ -63,7 +63,11 @@ model.fit(lr=0.001, min_delta=1e-6, patience=100, verbose=False)
 
 ### Predictions
 ```python
-y_pred = model.predict(x_test, region)  # region is used to specify the name of the region to be used for making predictions
+y_pred = model.predict(x_test, region, time_test)
+
+# x_test:    (-1,1) array of input data.
+# region:    Name identifying the country/region to be used for making predictions (if national or regional formulation).
+# time_test: (-1,1) array of input data.
 ```
 
 ### Visualizing output from dynamic model
