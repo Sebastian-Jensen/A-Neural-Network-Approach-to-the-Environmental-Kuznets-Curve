@@ -17,11 +17,11 @@ The folder ***Functions*** contains functions for data preparation and implement
 
 * Source code for the static neural network model is available in _Static_NN_model.py_.
 
-The folder ***Empirical Analysis*** contains scripts for reproducing the empirical results of the paper.
-
 The folder ***Data*** contains the data used in the paper.
 
 The folders ***Benchmark models***, ***BIC***, ***Model Parameters***, ***Model parameters sd***, and ***Squared residuals*** contains the parameter estimates used in the paper and are overwritten by the scripts in ***Empirical Analysis***.
+
+The folder ***Empirical Analysis*** contains scripts for reproducing the empirical results of the paper.
 
 
 ## Example
