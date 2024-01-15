@@ -4,6 +4,20 @@ Python code and data used to reproduce the empirical results of the paper *A neu
 The code is built with python 3.x (tested with version 3.6.10) and TensorFlow 2.x (tested with version 2.2.0).
 
 
+## Usage
+Save this repository locally (e.g. using Github Desktop), and make sure to have installed all required dependencies. 
+
+The ***Papers*** folder contains the data and source code needed to reproduce all results of the two reference papers.
+
+The ***Functions*** folder contains custom functions used for data preparation and implementation of the neural network-based panel data methodology: 
+
+* The source code for the static neural network model is available in _Static_NN_model.py_.
+
+* The source code for the dynamic neural network model is available in _Dyanmic_NN_model.py_.
+
+ * The source code for the path-dependent neural network model is available in _Path_dependent_NN_model.py_.
+
+
 ## Example
 Illustrative example. Function arguments are further explained in Dynamic_NN_model.py and Static_NN_model.py.
 
@@ -50,28 +64,6 @@ y_pred = model.predict(x_test, region, time_test)
 </p>
 
 
-## References
-* Bennedsen, M., Hillebrand, E., & Jensen, S. (2023). A neural network approach to the environmental Kuznets curve. Energy Economics, 126, Article 106985. [https://doi.org/10.1016/j.eneco.2023.106985](https://doi.org/10.1016/j.eneco.2023.106985).
-
-
-## Usage
-Save this repository locally (e.g. using Github Desktop), and make sure to have installed all required dependencies. 
-
-The ***Papers*** folder contains the data and source code needed to reproduce all results of the two reference papers.
-
-The ***Functions*** folder contains custom functions used for data preparation and implementation of the neural network-based panel data methodology: 
-
-* The source code for the static neural network model is available in _Static_NN_model.py_.
-
-* The source code for the dynamic neural network model is available in _Dyanmic_NN_model.py_.
-
- * The source code for the path-dependent neural network model is available in _Path_dependent_NN_model.py_.
-
-
-## License
-Not yet licensed.
-
-
 ## Dependencies
 numpy (tested with version 1.19.4)
 
@@ -86,6 +78,10 @@ keras (tested with version 2.4.3)
 matplotlib (tested with version 3.1.1)
 
 seaborn (tested with version 0.9.0)
+
+
+## References
+* Bennedsen, M., Hillebrand, E., & Jensen, S. (2023). A neural network approach to the environmental Kuznets curve. Energy Economics, 126, Article 106985. [https://doi.org/10.1016/j.eneco.2023.106985](https://doi.org/10.1016/j.eneco.2023.106985).
 
 
 ## Contact
