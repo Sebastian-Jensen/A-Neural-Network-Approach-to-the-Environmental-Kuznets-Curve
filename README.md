@@ -11,7 +11,7 @@ The code is built with python 3.x (tested with version 3.6.10) and TensorFlow 2.
 ## Usage
 Save this repository locally (e.g. using Github Desktop) and ensure all required dependencies have been installed. 
 
-The folder ***Functions*** contains custom functions used for data preparation and implementation of the neural network-based panel data methodology: 
+The folder ***Functions*** contains functions used for data preparation and implementation of the neural network-based panel data methodology: 
 
 * The source code for the dynamic neural network model is available in _Dyanmic_NN_model.py_.
 
