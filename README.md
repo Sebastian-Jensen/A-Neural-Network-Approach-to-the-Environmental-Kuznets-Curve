@@ -39,7 +39,8 @@ Missing values are accounted for, but *x_train* and *y_train* must be aligned to
 
 Importing libraries
 ```python
-from Dynamic_NN_model import dynamic_model as Model
+from Dynamic_NN_model import dynamic_model
+from Static_NN_model import static_model
 ```
 
 Setting choice parameters
@@ -51,7 +52,7 @@ nodes = (8, 8, 8)          # Must be (x,), (x,y), or (x,y,z)
 
 Estimating model
 ```python
-model = Model(nodes=nodes, x_train=x_train, y_train=y_train, pop_train=pop_train, formulation=formulation)
+model = dynamic_model(nodes=nodes, x_train=x_train, y_train=y_train, pop_train=pop_train, formulation=formulation)
 model.fit(lr=0.001, min_delta=1e-6, patience=100, verbose=False)
 ```
 
