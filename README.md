@@ -62,7 +62,7 @@ model.fit(lr=0.001, min_delta=1e-6, patience=100, verbose=False)
 y_pred = model.predict(x_test, region, time_test)
 
 # x_test:     (-1,1) array of input data.
-# region:     Name identifying the region to be used for making predictions.
+# region:     str identifying the region to be used for making predictions.
 # time_test:  (-1,1) array of input data.
 ```
 
