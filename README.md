@@ -9,7 +9,7 @@ We propose a novel panel data methodology that combines fixed effects with a neu
 
 
 ## Usage
-Save this repository locally (e.g. using Github Desktop) and ensure all required dependencies have been installed. 
+Download this repository and ensure all required dependencies have been installed. 
 
 The folder ***Empirical Analysis*** contains scripts for model estimation and reproduction of all empirical results (figures and tables).
 
