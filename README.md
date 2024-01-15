@@ -60,7 +60,7 @@ model.fit(lr=0.001, min_delta=1e-6, patience=100, verbose=False)
 y_pred = model.predict(x_test, region)
 ```
 
-### Visualizing output from dynamic model
+### Output from dynamic model
 <p float="left">
   <img src="/Figures examples/f_OECD_with_ben.png" width="19%" />
   <img src="/Figures examples/f_REF_with_ben.png" width="19%" />
