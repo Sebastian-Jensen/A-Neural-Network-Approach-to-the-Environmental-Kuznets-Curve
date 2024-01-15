@@ -21,7 +21,7 @@ The folders ***Benchmark models***, ***BIC***, ***Model Parameters***, ***Model 
 
 
 ## Example
-This example demonstrates how to use the _dynamic model_. The _static model_ is used similarly.
+This example demonstrates how to use the ***dynamic model***. The ***static model*** is used similarly.
 
 ### Importing model
 ```python
