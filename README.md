@@ -39,8 +39,7 @@ Missing values are accounted for, but *x_train* and *y_train* must be aligned to
 
 Importing libraries
 ```python
-from Dynamic_NN_model import dynamic_model
-from Static_NN_model import static_model
+from Dynamic_NN_model import dynamic_model as Model  # from Static_NN_model import static_model as Model
 ```
 
 Setting choice parameters
