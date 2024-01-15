@@ -1,9 +1,9 @@
 # A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve
 Python code and data used to reproduce the empirical results of the paper *A neural network approach to the environmental Kuznets curve* by Mikkel Bennedsen, Eric Hillebrand, and Sebastian Jensen, 2023. [doi.org/10.1016/j.eneco.2023.106985](https://doi.org/10.1016/j.eneco.2023.106985). We propose a framework that contains two distinct model specifications:
 
-* The _static model_ contains country and time fixed effects in addition to a neural network regression component.
+* The ***static model*** contains country and time fixed effects in addition to a neural network regression component.
 
-* The _dynamic model_ uses a time variable as an additional input into the neural network component in place of time fixed effects.
+* The ***dynamic model*** uses a time variable as an additional input into the neural network component in place of time fixed effects.
 
 The code is built with python 3.x (tested with version 3.6.10) and TensorFlow 2.x (tested with version 2.2.0).
 
