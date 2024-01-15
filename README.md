@@ -44,6 +44,74 @@ print('hello_world')
 ```
 
 
+<html>
+<head>
+<title>test.ipynb</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #cc7832;}
+.s2 { color: #a9b7c6;}
+.s3 { color: #6a8759;}
+.s4 { color: #6897bb;}
+.ls0 { height: 1px; border-width: 0; color: #4d4d4d; background-color:#4d4d4d}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+test.ipynb</font>
+</center></td></tr></table>
+<pre><span class="s0">#%% Importing libraries 
+</span><span class="s1">import </span><span class="s2">os; os.environ[</span><span class="s3">'PYTHONHASHSEED'</span><span class="s2">] = str(</span><span class="s4">0</span><span class="s2">)</span>
+<span class="s1">import </span><span class="s2">sys; sys.path.append(</span><span class="s3">'Functions'</span><span class="s2">)</span>
+
+<span class="s1">import </span><span class="s2">numpy </span><span class="s1">as </span><span class="s2">np</span>
+<span class="s1">import </span><span class="s2">tensorflow </span><span class="s1">as </span><span class="s2">tf</span>
+<span class="s1">import </span><span class="s2">pandas </span><span class="s1">as </span><span class="s2">pd</span>
+
+<span class="s1">from </span><span class="s2">fPrepare </span><span class="s1">import </span><span class="s2">fPrepare</span>
+<hr class="ls0"><span class="s0">#%% Setting choice parameters 
+</span><span class="s2">specification = </span><span class="s3">'dynamic'  </span><span class="s0"># Must be 'static' or 'dynamic'</span>
+<span class="s2">formulation = </span><span class="s3">'regional'   </span><span class="s0"># Must be 'global', 'regional', or 'national'</span>
+<span class="s2">nodes = (</span><span class="s4">8</span><span class="s1">, </span><span class="s4">8</span><span class="s1">, </span><span class="s4">8</span><span class="s2">)          </span><span class="s0"># Must be (x,), (x,y), or (x,y,z)</span>
+<hr class="ls0"><span class="s0">#%% Loading model class 
+</span><span class="s1">if </span><span class="s2">specification == </span><span class="s3">'static'</span><span class="s2">:</span>
+    <span class="s1">from </span><span class="s2">Static_NN_model </span><span class="s1">import </span><span class="s2">static_model </span><span class="s1">as </span><span class="s2">Model</span>
+
+<span class="s1">elif </span><span class="s2">specification == </span><span class="s3">'dynamic'</span><span class="s2">:</span>
+    <span class="s1">from </span><span class="s2">Dynamic_NN_model </span><span class="s1">import </span><span class="s2">dynamic_model </span><span class="s1">as </span><span class="s2">Model</span>
+<hr class="ls0"><span class="s0">#%% Loading data 
+</span><span class="s2">GDP = pd.read_excel(</span><span class="s3">'Data/GDP.xlsx'</span><span class="s1">, </span><span class="s2">sheet_name=</span><span class="s3">'Python'</span><span class="s1">, </span><span class="s2">index_col=</span><span class="s4">0</span><span class="s2">)</span>
+<span class="s2">GDP.sort_index(axis=</span><span class="s4">1</span><span class="s1">, </span><span class="s2">inplace=</span><span class="s1">True</span><span class="s2">)</span>
+
+<span class="s2">POP = pd.read_excel(</span><span class="s3">'Data/Population.xlsx'</span><span class="s1">, </span><span class="s2">sheet_name=</span><span class="s3">'Python'</span><span class="s1">, </span><span class="s2">index_col=</span><span class="s4">0</span><span class="s2">) / </span><span class="s4">1e6</span>
+<span class="s2">POP.sort_index(axis=</span><span class="s4">1</span><span class="s1">, </span><span class="s2">inplace=</span><span class="s1">True</span><span class="s2">)</span>
+
+<span class="s2">DEF = pd.read_excel(</span><span class="s3">'Data/Deflator.xlsx'</span><span class="s1">, </span><span class="s2">sheet_name=</span><span class="s3">'Python'</span><span class="s1">, </span><span class="s2">index_col=</span><span class="s4">0</span><span class="s2">)</span>
+<span class="s2">DEF.sort_index(axis=</span><span class="s4">1</span><span class="s1">, </span><span class="s2">inplace=</span><span class="s1">True</span><span class="s2">)</span>
+
+<span class="s2">PPP = pd.read_excel(</span><span class="s3">'Data/PPP.xlsx'</span><span class="s1">, </span><span class="s2">sheet_name=</span><span class="s3">'Python'</span><span class="s1">, </span><span class="s2">index_col=</span><span class="s4">0</span><span class="s2">)</span>
+<span class="s2">PPP.sort_index(axis=</span><span class="s4">1</span><span class="s1">, </span><span class="s2">inplace=</span><span class="s1">True</span><span class="s2">)</span>
+
+<span class="s2">GHG = pd.read_excel(</span><span class="s3">'Data/CO2_GCP.xlsx'</span><span class="s1">, </span><span class="s2">sheet_name=</span><span class="s3">'Python'</span><span class="s1">, </span><span class="s2">index_col=</span><span class="s4">0</span><span class="s2">) * </span><span class="s4">3.664</span>
+<span class="s2">GHG.sort_index(axis=</span><span class="s4">1</span><span class="s1">, </span><span class="s2">inplace=</span><span class="s1">True</span><span class="s2">)</span>
+<hr class="ls0"><span class="s0">#%% Preparing data 
+</span><span class="s2">gdp_est</span><span class="s1">, </span><span class="s2">ghg_est</span><span class="s1">, </span><span class="s2">pop_est = fPrepare(GDP</span><span class="s1">, </span><span class="s2">POP</span><span class="s1">, </span><span class="s2">DEF</span><span class="s1">, </span><span class="s2">PPP</span><span class="s1">, </span><span class="s2">GHG)</span>
+<hr class="ls0"><span class="s0">#%% 
+</span><span class="s2">model = Model(nodes=nodes</span><span class="s1">, </span><span class="s2">x_train=gdp_est</span><span class="s1">, </span><span class="s2">y_train=ghg_est</span><span class="s1">, </span><span class="s2">pop_train=pop_est</span><span class="s1">, </span><span class="s2">formulation=formulation)</span>
+
+<span class="s2">model.fit(lr=</span><span class="s4">0.001</span><span class="s1">, </span><span class="s2">min_delta=</span><span class="s4">1e-6</span><span class="s1">, </span><span class="s2">patience=</span><span class="s4">100</span><span class="s1">, </span><span class="s2">verbose=</span><span class="s1">False</span><span class="s2">)</span>
+
+<span class="s2">model.in_sample_predictions()</span>
+<span class="s2">BIC = model.BIC</span>
+<span class="s2">print(BIC)</span>
+</pre>
+</body>
+</html>
+
+
 ## License
 Not yet licensed.
 
