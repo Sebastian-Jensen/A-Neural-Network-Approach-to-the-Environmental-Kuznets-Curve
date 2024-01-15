@@ -51,7 +51,7 @@ nodes = (8, 8, 8)          # Must be (x,), (x,y), or (x,y,z)
 
 Estimating model
 ```python
-model = dynamic_model(nodes=nodes, x_train=x_train, y_train=y_train, pop_train=pop_train, formulation=formulation)
+model = Model(nodes=nodes, x_train=x_train, y_train=y_train, pop_train=pop_train, formulation=formulation)
 model.fit(lr=0.001, min_delta=1e-6, patience=100, verbose=False)
 ```
 
@@ -66,7 +66,7 @@ Predictions
 y_pred = model.predict(x_test, region)
 ```
 
-89we893895
+Examples of output from dynamic model specification
 <p float="left">
   <img src="/Figures examples/f_OECD_with_ben.png" width="19%" />
   <img src="/Figures examples/f_REF_with_ben.png" width="19%" />
