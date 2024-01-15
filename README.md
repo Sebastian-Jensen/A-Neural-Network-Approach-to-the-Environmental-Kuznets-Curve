@@ -19,7 +19,7 @@ The ***Functions*** folder contains custom functions used for data preparation a
 
 
 ## Example
-Illustrative example. Function arguments are further explained in Dynamic_NN_model.py and Static_NN_model.py.
+This example demonstrates how to use the dynamic model in *Dynamic_NN_model.py*. The static model in *Static_NN_model.py*. is used similarly.
 
 ### Importing model
 ```python
