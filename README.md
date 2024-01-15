@@ -9,15 +9,19 @@ The code is built with python 3.x (tested with version 3.6.10) and TensorFlow 2.
 
 
 ## Usage
-Save this repository locally (e.g. using Github Desktop), and make sure to have installed all required dependencies. 
+Save this repository locally (e.g. using Github Desktop) and ensure all required dependencies have been installed. 
 
-The ***Papers*** folder contains the data and source code needed to reproduce all results of the two reference papers.
+The folder ***Functions*** contains custom functions used for data preparation and implementation of the neural network-based panel data methodology: 
 
-The ***Functions*** folder contains custom functions used for data preparation and implementation of the neural network-based panel data methodology: 
+* The source code for the dynamic neural network model is available in _Dyanmic_NN_model.py_.
 
 * The source code for the static neural network model is available in _Static_NN_model.py_.
 
-* The source code for the dynamic neural network model is available in _Dyanmic_NN_model.py_.
+The folder ***Empirical Analysis*** contains scripts for reproducing the empirical results of the paper.
+
+The ***Papers*** folder contains the data and source code needed to reproduce all results of the two reference papers.
+
+
 
  * The source code for the path-dependent neural network model is available in _Path_dependent_NN_model.py_.
 
