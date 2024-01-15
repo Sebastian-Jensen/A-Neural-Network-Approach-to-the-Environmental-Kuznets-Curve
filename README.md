@@ -37,10 +37,17 @@ The ***Functions*** folder contains custom functions used for data preparation a
 Missing values are accounted for, but *x_train* and *y_train* must be aligned to have the same missing values. 
 
 
+Importing libraries
+
 ```python
 from Dynamic_NN_model import dynamic_model as Model
 
-print('hello_world')
+```
+
+Importing libraries
+```python
+from Dynamic_NN_model import dynamic_model as Model
+
 ```
 
 
