@@ -69,9 +69,9 @@ y_pred = model.predict(x_test, region)
 
 89we893895
 <p float="left">
-  <img src="//Users/au483688/Dropbox/EMS/EKC%20papir%20revised%202nd%20time/Manuscript%20source%20files/Figures_Github/Full%20sample/CO2/dynamic/regional/f_LAM_with_ben.png" width="100" />
-  <img src="//Users/au483688/Dropbox/EMS/EKC%20papir%20revised%202nd%20time/Manuscript%20source%20files/Figures_Github/Full%20sample/CO2/dynamic/regional/f_LAM_with_ben.png" width="100" /> 
-  <img src="//Users/au483688/Dropbox/EMS/EKC%20papir%20revised%202nd%20time/Manuscript%20source%20files/Figures_Github/Full%20sample/CO2/dynamic/regional/f_LAM_with_ben.png" width="100" />
+  <img src="au483688/Dropbox/EMS/EKC%20papir%20revised%202nd%20time/Manuscript%20source%20files/Figures_Github/Full%20sample/CO2/dynamic/regional/f_LAM_with_ben.png" width="100" />
+  <img src="au483688/Dropbox/EMS/EKC%20papir%20revised%202nd%20time/Manuscript%20source%20files/Figures_Github/Full%20sample/CO2/dynamic/regional/f_LAM_with_ben.png" width="100" /> 
+  <img src="au483688/Dropbox/EMS/EKC%20papir%20revised%202nd%20time/Manuscript%20source%20files/Figures_Github/Full%20sample/CO2/dynamic/regional/f_LAM_with_ben.png" width="100" />
 </p>
 
 
