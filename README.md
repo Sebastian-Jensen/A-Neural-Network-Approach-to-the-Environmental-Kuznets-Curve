@@ -39,6 +39,8 @@ Missing values are accounted for, but *x_train* and *y_train* must be aligned to
 
 ```python
 from Dynamic_NN_model import dynamic_model as Model
+
+print('hello_world')
 ```
 
 ## License
