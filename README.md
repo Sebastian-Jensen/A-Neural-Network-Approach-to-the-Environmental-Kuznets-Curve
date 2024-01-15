@@ -1,5 +1,5 @@
 # A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve
-Python code and data used to reproduce the empirical results of the paper *A neural network approach to the environmental Kuznets curve* by Mikkel Bennedsen, Eric Hillebrand, and Sebastian Jensen, 2023. [doi.org/10.1016/j.eneco.2023.106985](https://doi.org/10.1016/j.eneco.2023.106985). We propose propose a novel panel data methodology that combines fixed effects with a neural network regression component. The framework that contains two distinct model specifications:
+Python code and data used to reproduce the empirical results of the paper *A neural network approach to the environmental Kuznets curve* by Mikkel Bennedsen, Eric Hillebrand, and Sebastian Jensen, 2023. [doi.org/10.1016/j.eneco.2023.106985](https://doi.org/10.1016/j.eneco.2023.106985). We propose a novel panel data methodology that combines panel fixed effects with a neural network regression component. The methodology contains two distinct model specifications:
 
 * The ***static model*** contains country and time fixed effects in addition to a neural network regression component.
 
