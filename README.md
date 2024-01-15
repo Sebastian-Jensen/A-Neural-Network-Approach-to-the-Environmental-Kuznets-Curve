@@ -8,10 +8,6 @@ We propose a novel panel data methodology that combines fixed effects with a neu
 * The ***dynamic model*** uses a time variable as an additional input into the neural network component in place of time fixed effects.
 
 
-## Reference
-Bennedsen, M., Hillebrand, E., & Jensen, S. (2023). A neural network approach to the environmental Kuznets curve. Energy Economics, 126, Article 106985. [https://doi.org/10.1016/j.eneco.2023.106985](https://doi.org/10.1016/j.eneco.2023.106985).
-
-
 ## Usage
 Save this repository locally (e.g. using Github Desktop) and ensure all required dependencies have been installed. 
 
@@ -89,6 +85,10 @@ keras (tested with version 2.4.3)
 matplotlib (tested with version 3.1.1)
 
 seaborn (tested with version 0.9.0)
+
+
+## Reference
+Bennedsen, M., Hillebrand, E., & Jensen, S. (2023). A neural network approach to the environmental Kuznets curve. Energy Economics, 126, Article 106985. [https://doi.org/10.1016/j.eneco.2023.106985](https://doi.org/10.1016/j.eneco.2023.106985).
 
 
 ## Contact
