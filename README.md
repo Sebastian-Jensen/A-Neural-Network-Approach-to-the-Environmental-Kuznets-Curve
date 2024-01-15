@@ -37,7 +37,7 @@ nodes = (8, 8, 8)          # Must be (x,), (x,y), or (x,y,z)
 
 ### Estimating model
 ```python
-model = Model(nodes=nodes, x_train=x_train, y_train=y_train, pop_train=pop_train, formulation=formulation)
+model = Model(nodes, x_train, y_train, pop_train, formulation)
 model.fit(lr=0.001, min_delta=1e-6, patience=100, verbose=False)
 
 # x_train:    dict of dataframes of input data (time periods x countries) with a key for each region.
