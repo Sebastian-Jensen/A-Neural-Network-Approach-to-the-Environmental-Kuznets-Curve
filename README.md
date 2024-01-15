@@ -68,8 +68,8 @@ y_pred = model.predict(x_test, region)
 ```
 
 89we893895
-![f_OECD_with_ben, width="32%"](https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve/assets/81083641/00028194-eb20-40f1-a51d-c9ef248a5d56) 
-![f_OECD_with_ben, width="32%"](https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve/assets/81083641/00028194-eb20-40f1-a51d-c9ef248a5d56)
+![f_OECD_with_ben, width="2%"](https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve/assets/81083641/00028194-eb20-40f1-a51d-c9ef248a5d56) 
+![f_OECD_with_ben, width="2%"](https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve/assets/81083641/00028194-eb20-40f1-a51d-c9ef248a5d56)
 
 
 ## License
