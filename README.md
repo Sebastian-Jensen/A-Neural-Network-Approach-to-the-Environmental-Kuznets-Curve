@@ -30,14 +30,14 @@ The ***Functions*** folder contains custom functions used for data preparation a
  * The source code for the path-dependent neural network model is available in _Path_dependent_NN_model.py_.
 
 
-### Example
+## Example
 
 *x_train* and *y_train* must be specified as dictionaries where the key-value pairs are region names and pandas DataFrames of observations, respectively.
 
 Missing values are accounted for, but *x_train* and *y_train* must be aligned to have the same missing values. 
 
 
-Importing libraries
+### Importing libraries
 ```python
 from Dynamic_NN_model import dynamic_model as Model
 #from Static_NN_model import static_model as Model 
