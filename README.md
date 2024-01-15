@@ -13,7 +13,7 @@ Save this repository locally (e.g. using Github Desktop) and ensure all required
 
 The folder ***Empirical Analysis*** contains scripts for model estimation and reproduction of all empirical results.
 
-The folder ***Functions*** contains functions for data preparation and implementation of the neural network-based panel data methodology. 
+The folder ***Functions*** contains custom functions for data preparation and implementation of the neural network-based panel data methodology. 
 
 The folder ***Data*** contains the data used in the paper.
 
