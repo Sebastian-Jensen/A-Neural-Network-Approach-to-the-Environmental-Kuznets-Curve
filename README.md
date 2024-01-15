@@ -13,13 +13,9 @@ Save this repository locally (e.g. using Github Desktop) and ensure all required
 
 The folder ***Functions*** contains functions for data preparation and implementation of the neural network-based panel data methodology: 
 
-* Source code for the dynamic neural network model is available in _Dyanmic_NN_model.py_.
-
-* Source code for the static neural network model is available in _Static_NN_model.py_.
-
 The folder ***Data*** contains the data used in the paper.
 
-The folders ***Benchmark models***, ***BIC***, ***Model Parameters***, ***Model parameters sd***, and ***Squared residuals*** contains the parameter estimates used in the paper and are overwritten by the scripts in ***Empirical Analysis***.
+The folders ***Benchmark models***, ***BIC***, ***Model Parameters***, ***Model parameters sd***, and ***Squared residuals*** contains the parameter estimates used in the paper and are overwritten by the scripts in the folder ***Empirical Analysis***.
 
 The folder ***Empirical Analysis*** contains scripts for reproducing the empirical results of the paper.
 
