@@ -51,7 +51,7 @@ model.fit(lr=0.001, min_delta=1e-6, patience=100, verbose=False)
 ```
 * x_train:    dict of dataframes of input data (time periods x countries) with a key for each region.
 * y_train:    dict of dataframes of target data (time periods x countries) with a key for each region.
-* pop_train:  dict of TxN_r dataframes of population data (time periods x countries) with a key for each region.
+* pop_train:  dict of dataframes of population data (time periods x countries) with a key for each region.
 
 Missing values are accounted for, but *x_train*, *y_train*, and *pop_train* must be aligned to have the same missing values. 
 
