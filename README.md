@@ -1,5 +1,5 @@
 # A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve
-Python code and data used to reproduce the main results of the paper *A Neural Network Approach to the Environmental Kuznets Curve* by Mikkel Bennedsen, Eric Hillebrand, and Sebastian Jensen, 2023. [doi.org/10.1016/j.eneco.2023.106985](https://doi.org/10.1016/j.eneco.2023.106985).
+Python code and data used to reproduce the empirical results of the paper *A Neural Network Approach to the Environmental Kuznets Curve* by Mikkel Bennedsen, Eric Hillebrand, and Sebastian Jensen, 2023. [doi.org/10.1016/j.eneco.2023.106985](https://doi.org/10.1016/j.eneco.2023.106985).
 
 The code is built with python 3.x (tested with version 3.6.10) and TensorFlow 2.x (tested with version 2.2.0).
 
