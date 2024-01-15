@@ -17,7 +17,7 @@ The folder ***Functions*** contains functions for data preparation and implement
 
 The folder ***Data*** contains the data used in the paper.
 
-The folders ***Benchmark models***, ***BIC***, ***Model Parameters***, ***Model parameters sd***, and ***Squared residuals*** contain the parameter estimates used in the paper and are overwritten by the scripts in the folder ***Empirical Analysis***.
+The folders ***Benchmark models***, ***BIC***, ***Model Parameters***, ***Model parameters sd***, and ***Squared residuals*** contain the parameter estimates used in the paper but are overwritten by the scripts in the folder ***Empirical Analysis***.
 
 
 ## Example
