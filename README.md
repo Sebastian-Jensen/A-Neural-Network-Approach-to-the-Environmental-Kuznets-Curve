@@ -44,7 +44,7 @@ model.fit(lr=0.001, min_delta=1e-6, patience=100, verbose=False)
 # y_train:    dict of dataframes of target data (time periods x countries) with a key for each region.
 # pop_train:  dict of dataframes of population data (time periods x countries) with a key for each region.
 
-# NB: x_train, y_train, and pop_train must be aligned to have the same missing values. pop_train is used for transforming the data (log per capita transformation). 
+# NB: x_train, y_train, and pop_train must be aligned to have the same missing values; pop_train is used for transforming the data (log per capita transformation). 
 ```
 
 ### Making predictions
