@@ -68,13 +68,8 @@ y_pred = model.predict(x_test, region)
 ```
 
 89we893895
-<p float="left">
-  <img src=![f_OECD_with_ben](https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve/assets/81083641/00028194-eb20-40f1-a51d-c9ef248a5d56) width="100" />
-  <img src=![f_REF_with_ben](https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve/assets/81083641/1ce31ed2-2366-44a6-b860-af4378430356) width="100" /> 
-  <img src=![f_Asia_with_ben](https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve/assets/81083641/8ea1443f-efb7-4019-a88f-85d04313bcc3) width="100" />
-  <img src=![f_MAF_with_ben](https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve/assets/81083641/4caf5c07-61c1-4c94-b852-013c959c5f20) width="100" />
-  <img src=![f_LAM_with_ben](https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve/assets/81083641/1d3631bb-ec6d-4ba7-a3ec-a51f6d96b7ca) width="100" />
-</p>
+![f_OECD_with_ben](https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve/assets/81083641/00028194-eb20-40f1-a51d-c9ef248a5d56) ![f_REF_with_ben](https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve/assets/81083641/1ce31ed2-2366-44a6-b860-af4378430356) ![f_Asia_with_ben](https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve/assets/81083641/8ea1443f-efb7-4019-a88f-85d04313bcc3) ![f_MAF_with_ben](https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve/assets/81083641/4caf5c07-61c1-4c94-b852-013c959c5f20) ![f_LAM_with_ben](https://github.com/Sebastian-Jensen/A-Neural-Network-Approach-to-the-Environmental-Kuznets-Curve/assets/81083641/1d3631bb-ec6d-4ba7-a3ec-a51f6d96b7ca)
+
 
 
 ## License
