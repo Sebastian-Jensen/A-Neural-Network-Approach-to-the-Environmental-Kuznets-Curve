@@ -68,7 +68,7 @@ y_pred = model.predict(x_test, region)
 ```
 
 89we893895
-<img src="[https://user-images.githubusercontent.com/16319829/81180309-2b51f000-8fee-11ea-8a78-ddfe8c3412a7.png](https://github-production-user-asset-6210df.s3.amazonaws.com/81083641/296746990-c524bf39-39d2-4296-a694-6ad96697f5f7.png)" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/16319829/81180309-2b51f000-8fee-11ea-8a78-ddfe8c3412a7.png" width=50% height=50%>
 
 
 ## License
