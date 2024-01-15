@@ -48,7 +48,6 @@ model.fit(lr=0.001, min_delta=1e-6, patience=100, verbose=False)
 ```
 
 ### Making predictions
-Plots below are from the paper (see *Production_region_plots.py* for details).
 ```python
 y_pred = model.predict(x_test, region, time_test)
 
@@ -58,6 +57,7 @@ y_pred = model.predict(x_test, region, time_test)
 ```
 
 ### Visualizing output from the dynamic model
+Plots below are from the paper (see *Production_region_plots.py* for details).
 <p float="left">
   <img src="/Figures examples/f_OECD_with_ben.png" width="19%" />
   <img src="/Figures examples/f_REF_with_ben.png" width="19%" />
