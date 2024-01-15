@@ -37,7 +37,7 @@ The ***Functions*** folder contains custom functions used for data preparation a
 Missing values are accounted for, but *x_train* and *y_train* must be aligned to have the same missing values. 
 
 
-### Importing libraries
+### Importing model class
 ```python
 from Dynamic_NN_model import dynamic_model as Model
 #from Static_NN_model import static_model as Model 
@@ -53,12 +53,6 @@ nodes = (8, 8, 8)          # Must be (x,), (x,y), or (x,y,z)
 ```python
 model = Model(nodes=nodes, x_train=x_train, y_train=y_train, pop_train=pop_train, formulation=formulation)
 model.fit(lr=0.001, min_delta=1e-6, patience=100, verbose=False)
-```
-
-### In-sample predictions
-```python
-model.in_sample_predictions()
-BIC = model.BIC
 ```
 
 ### Predictions
