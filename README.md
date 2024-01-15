@@ -66,7 +66,7 @@ BIC = model.BIC
 y_pred = model.predict(x_test, region)
 ```
 
-Examples of output from dynamic model specification
+### Examples of output from dynamic model specification
 <p float="left">
   <img src="/Figures examples/f_OECD_with_ben.png" width="19%" />
   <img src="/Figures examples/f_REF_with_ben.png" width="19%" />
