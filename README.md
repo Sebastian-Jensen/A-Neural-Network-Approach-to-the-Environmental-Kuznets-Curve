@@ -31,10 +31,11 @@ The ***Functions*** folder contains custom functions used for data preparation a
 
 
 ## Example
+* x_train:    dict of dataframes of input data (time periods x countries) with a key for each region.
+* y_train:    dict of dataframes of target data (time periods x countries) with a key for each region.
+* pop_train:  dict of TxN_r dataframes of population data (time periods x countries) with a key for each region.
 
-*x_train* and *y_train* must be specified as dictionaries where the key-value pairs are region names and pandas DataFrames of observations, respectively.
-
-Missing values are accounted for, but *x_train* and *y_train* must be aligned to have the same missing values. 
+Missing values are accounted for, but *x_train*, *y_train*, and *pop_train* must be aligned to have the same missing values. 
 
 
 ### Importing model
