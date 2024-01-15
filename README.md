@@ -53,13 +53,9 @@ Estimating model
 ```python
 model = Model(nodes=nodes, x_train=gdp_est, y_train=ghg_est, pop_train=pop_est, formulation=formulation)
 model.fit(lr=0.001, min_delta=1e-6, patience=100, verbose=False)
-
-model.in_sample_predictions()
-BIC = model.BIC
 ```
 
 In-sample predictions
-Setting choice parameters
 ```python
 model.in_sample_predictions()
 BIC = model.BIC
